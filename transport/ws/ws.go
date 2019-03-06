@@ -26,7 +26,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"nanomsg.org/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos"
 )
 
 // Some special options

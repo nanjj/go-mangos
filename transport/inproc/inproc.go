@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"nanomsg.org/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos"
 )
 
 // inproc implements the Pipe interface on top of channels.

@@ -17,9 +17,9 @@ package main
 import (
 	"fmt"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/sub"
-	"nanomsg.org/go-mangos/transport/ws"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/sub"
+	"nanjj.github.io/nanomsg/go-mangos/transport/ws"
 )
 
 // subClient implements the client for SUB.

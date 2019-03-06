@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/rep"
-	"nanomsg.org/go-mangos/protocol/req"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/rep"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/req"
 )
 
 var tran = NewTransport()

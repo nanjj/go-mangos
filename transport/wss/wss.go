@@ -17,8 +17,8 @@
 package wss
 
 import (
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/transport/ws"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/transport/ws"
 )
 
 type wssTran struct {

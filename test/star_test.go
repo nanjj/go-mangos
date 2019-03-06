@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/star"
-	"nanomsg.org/go-mangos/transport/tcp"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/star"
+	"nanjj.github.io/nanomsg/go-mangos/transport/tcp"
 )
 
 type starTester struct {

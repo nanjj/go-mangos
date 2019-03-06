@@ -58,7 +58,7 @@ the nanomsg umbrella.  In mangos 2.0, the import path will be moving from
 go-mangos (a separate dedicated organization) to nanomsg.org.  Mangos
 is *the* officially recommended Scalability Protocols implementation for
 Golang applications.  Most likely the import path will become just
-nanomsg.org/mangos or possibly nanomsg.org/go-mangos. (We anticipate that
+nanomsg.org/mangos or possibly nanjj.github.io/nanomsg/go-mangos. (We anticipate that
 the actual code will continue to be hosted on GitHub, but in light of
 recent news about the Microsoft acquisition, it seems like a good time
 to stop hard coding GitHub in our package import paths -- the freedom

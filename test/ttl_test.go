@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/transport/inproc"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/transport/inproc"
 )
 
 // SetTTLZero tests that a given socket fails to set a TTL of zero.

@@ -38,18 +38,18 @@ import (
 )
 
 import (
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/bus"
-	"nanomsg.org/go-mangos/protocol/pair"
-	"nanomsg.org/go-mangos/protocol/pub"
-	"nanomsg.org/go-mangos/protocol/pull"
-	"nanomsg.org/go-mangos/protocol/push"
-	"nanomsg.org/go-mangos/protocol/rep"
-	"nanomsg.org/go-mangos/protocol/req"
-	"nanomsg.org/go-mangos/protocol/respondent"
-	"nanomsg.org/go-mangos/protocol/sub"
-	"nanomsg.org/go-mangos/protocol/surveyor"
-	"nanomsg.org/go-mangos/transport/all"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/bus"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/pair"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/pub"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/pull"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/push"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/rep"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/req"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/respondent"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/sub"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/surveyor"
+	"nanjj.github.io/nanomsg/go-mangos/transport/all"
 )
 
 // Domain is the socket domain or address family.  We use it to indicate

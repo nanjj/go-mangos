@@ -19,7 +19,7 @@ import (
 	"net"
 	"time"
 
-	"nanomsg.org/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos"
 )
 
 // options is used for shared GetOption/SetOption logic.

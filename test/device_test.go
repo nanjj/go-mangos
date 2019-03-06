@@ -19,16 +19,16 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/pair"
-	"nanomsg.org/go-mangos/protocol/rep"
-	"nanomsg.org/go-mangos/protocol/req"
-	"nanomsg.org/go-mangos/transport/inproc"
-	"nanomsg.org/go-mangos/transport/ipc"
-	"nanomsg.org/go-mangos/transport/tcp"
-	"nanomsg.org/go-mangos/transport/tlstcp"
-	"nanomsg.org/go-mangos/transport/ws"
-	"nanomsg.org/go-mangos/transport/wss"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/pair"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/rep"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/req"
+	"nanjj.github.io/nanomsg/go-mangos/transport/inproc"
+	"nanjj.github.io/nanomsg/go-mangos/transport/ipc"
+	"nanjj.github.io/nanomsg/go-mangos/transport/tcp"
+	"nanjj.github.io/nanomsg/go-mangos/transport/tlstcp"
+	"nanjj.github.io/nanomsg/go-mangos/transport/ws"
+	"nanjj.github.io/nanomsg/go-mangos/transport/wss"
 )
 
 func TestDeviceBadPair(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	"log"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/pair"
-	"nanomsg.org/go-mangos/transport/all"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/pair"
+	"nanjj.github.io/nanomsg/go-mangos/transport/all"
 )
 
 // ThroughputServer is the server side -- very much equivalent to local_thr in

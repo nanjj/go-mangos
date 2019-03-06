@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/rep"
-	"nanomsg.org/go-mangos/protocol/req"
-	"nanomsg.org/go-mangos/transport/tcp"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/rep"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/req"
+	"nanjj.github.io/nanomsg/go-mangos/transport/tcp"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

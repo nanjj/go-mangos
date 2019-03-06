@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"testing"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/pub"
-	"nanomsg.org/go-mangos/protocol/sub"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/pub"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/sub"
 )
 
 var publish = []string{

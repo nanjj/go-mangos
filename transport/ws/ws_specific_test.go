@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"testing"
 
-	"nanomsg.org/go-mangos/protocol/rep"
-	"nanomsg.org/go-mangos/protocol/req"
-	//"nanomsg.org/go-mangos/test"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/rep"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/req"
+	//"nanjj.github.io/nanomsg/go-mangos/test"
 )
 
 func TestWebsockPath(t *testing.T) {

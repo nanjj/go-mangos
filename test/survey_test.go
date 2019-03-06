@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/respondent"
-	"nanomsg.org/go-mangos/protocol/surveyor"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/respondent"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/surveyor"
 )
 
 type surveyTest struct {

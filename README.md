@@ -4,8 +4,8 @@
 [![Linux Status](https://img.shields.io/circleci/project/github/nanomsg/mangos.svg?label=linux)](https://circleci.com/gh/nanomsg/mangos)
 [![Apache License](https://img.shields.io/badge/license-APACHE2-blue.svg)](https://github.com/nanomsg/mangos/blob/master/LICENSE)
 [![Gitter](https://img.shields.io/badge/gitter-join-brightgreen.svg)](https://gitter.im/go-mangos/mangos)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/nanomsg.org/go-mangos)
-[![Go Report Card](https://goreportcard.com/badge/nanomsg.org/go-mangos)](https://goreportcard.com/report/nanomsg.org/go-mangos)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/nanjj.github.io/nanomsg/go-mangos)
+[![Go Report Card](https://goreportcard.com/badge/nanjj.github.io/nanomsg/go-mangos)](https://goreportcard.com/report/nanjj.github.io/nanomsg/go-mangos)
 
 Package mangos is an implementation in pure Go of the SP
 ("Scalability Protocols")
@@ -20,7 +20,7 @@ on systems that lack support for cgo.
 > useful features, and is recommended for new development.
 
 > NOTE: The repository has moved from github.com/go-mangos/mangos.
-> Please import using nanomsg.org/go-mangos.  Also, be advised that
+> Please import using nanjj.github.io/nanomsg/go-mangos.  Also, be advised that
 > the master branch of this repository may contain breaking changes.
 > Therefore, consider using a tag, such as v1, to ensure that you have
 > the latest stable version.
@@ -65,19 +65,19 @@ via my email address, garrett -at- damore -dot- org
 
 ### Using *go get*
 
-    $ go get -u nanomsg.org/go-mangos
+    $ go get -u nanjj.github.io/nanomsg/go-mangos
 
 After this command *mangos* is ready to use. Its source will be in:
 
-    $GOPATH/src/pkg/nanomsg.org/go-mangos
+    $GOPATH/src/pkg/nanjj.github.io/nanomsg/go-mangos
 
 You can use `go get -u -a` to update all installed packages.
 
 ## Documentation
 
-For docs, see http://godoc.org/nanomsg.org/go-mangos or run:
+For docs, see http://godoc.org/nanjj.github.io/nanomsg/go-mangos or run:
 
-    $ godoc nanomsg.org/go-mangos
+    $ godoc nanjj.github.io/nanomsg/go-mangos
 
 ## Testing
 
@@ -85,11 +85,11 @@ This package supports internal self tests, which can be run in
 the idiomatic Go way.  (Note that most of the tests are in a test
 subdirectory.)
 
-    $ go test nanomsg.org/go-mangos/...
+    $ go test nanjj.github.io/nanomsg/go-mangos/...
 
 There are also internal benchmarks available:
 
-    $ go test -bench=. nanomsg.org/go-mangos/test
+    $ go test -bench=. nanjj.github.io/nanomsg/go-mangos/test
 
 ## Commercial Support
 

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"nanomsg.org/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos"
 )
 
 // req is an implementation of the req protocol.

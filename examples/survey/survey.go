@@ -33,11 +33,11 @@ import (
 	"os"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/respondent"
-	"nanomsg.org/go-mangos/protocol/surveyor"
-	"nanomsg.org/go-mangos/transport/ipc"
-	"nanomsg.org/go-mangos/transport/tcp"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/respondent"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/surveyor"
+	"nanjj.github.io/nanomsg/go-mangos/transport/ipc"
+	"nanjj.github.io/nanomsg/go-mangos/transport/tcp"
 )
 
 func die(format string, v ...interface{}) {

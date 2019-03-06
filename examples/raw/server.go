@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"nanomsg.org/go-mangos"
-	"nanomsg.org/go-mangos/protocol/rep"
-	"nanomsg.org/go-mangos/transport/ipc"
-	"nanomsg.org/go-mangos/transport/tcp"
+	"nanjj.github.io/nanomsg/go-mangos"
+	"nanjj.github.io/nanomsg/go-mangos/protocol/rep"
+	"nanjj.github.io/nanomsg/go-mangos/transport/ipc"
+	"nanjj.github.io/nanomsg/go-mangos/transport/tcp"
 )
 
 // Our protocol is simple.  Request packet is empty.  The reply
